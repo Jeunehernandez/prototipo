@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100dvh;
+}
+
+h2 {
+  border: 2px solid #e48;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carlos {
+  align-items: starts;
+}
