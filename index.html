@@ -5,13 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Final</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="div">
-      <div class="carlos">
-        <p>Carlos el nubi</p>
+    <header class="header">
+      <div class="header-container">
+        <div class="logo">
+          <img src="images/logo.jpeg" alt="Logo" />
+        </div>
+        <nav class="nav">
+          <a href="#">Inicio</a>
+          <a href="Paginas/suscribete.html">Suscríbete</a>
+          <a href="Paginas/contacto.html">Contacto</a>
+          <a href="/Paginas/login.html">Login / Register</a>
+        </nav>
+        <div class="search-button">
+          <input type="text" placeholder="Buscar" />
+          <button>➔</button>
+        </div>
+        <div class="menu-icon">
+          <span>☰</span>
+        </div>
       </div>
-      <h2>Prototipo de la red social</h2>
-    </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Todo lo que te gusta,<br />en un solo lugar</h1>
+          <p>Recomendaciones que sí conectan contigo.</p>
+
+          <div class="search-bar">
+            <div class="search-tabs">
+              <span class="active">Músicas / Películas / Libros</span>
+            </div>
+            <div class="search-input">
+              <input type="text" placeholder="Buscar" />
+              <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories">
+        <div class="card">
+          <img src="images/musicas.jpg" alt="Músicas" />
+          <div class="card-info">
+            <div class="card-text">
+              <h3>Músicas</h3>
+              <p>1000 +</p>
+            </div>
+            <button>Descubrir</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/peliculas.jpg" alt="Películas" />
+          <div class="card-info">
+            <div class="card-text">
+              <h3>Películas</h3>
+              <p>1000 +</p>
+            </div>
+            <button>Descubrir</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/libros.jpg" alt="Libros" />
+          <div class="card-info">
+            <div class="card-text">
+              <h3>Libros</h3>
+              <p>1000 +</p>
+            </div>
+            <button>Descubrir</button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
